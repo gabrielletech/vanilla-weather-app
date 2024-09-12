@@ -11,3 +11,55 @@ body {
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 10px;
 }
+
+.search-input {
+    background: #f9f7fe;
+    padding: 15px;
+    width: 75%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 0 8px 0 0;
+}
+
+.submit-btn {
+    width: 20%;
+    padding: 15px;
+    background: #885DF1;
+    border: 1px solid transparent;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.temperature {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.weather-info-wrapper p {
+    color: #A9A6B3;
+}
+
+span {
+    color: red;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: darkgrey;
+}
