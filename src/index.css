@@ -68,3 +68,7 @@ footer {
     font-size: 14px;
     margin-top: -18px;
 }
+
+.temp-details {
+    display: flex;
+}
