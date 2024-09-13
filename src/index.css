@@ -72,3 +72,13 @@ footer {
 .temp-details {
     display: flex;
 }
+
+#time {
+    color: #A9A6B3;
+    font-weight: normal;
+}
+
+#description {
+    color: #A9A6B3;
+    font-weight: normal;
+}
