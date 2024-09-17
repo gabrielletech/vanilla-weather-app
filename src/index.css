@@ -32,7 +32,7 @@ body {
     border-radius: 8px;
 }
 
-main {
+.main-wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -81,4 +81,37 @@ footer {
 #description {
     color: #A9A6B3;
     font-weight: normal;
+}
+
+.weather-forecast-day {
+    text-align: center;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.weather-icon {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.weather-temperatures {
+    display: flex;
+    justify-content: center;
+}
+
+.weather-temperature {
+    text-align: center;
+    color: #f65282;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+.weather-forecast {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
 }
